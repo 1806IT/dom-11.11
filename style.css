@@ -1,0 +1,38 @@
+#ss{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+#txt1{
+    color: grey;
+}
+#dv3{
+    width:150px;
+    height:50px;
+    border:1px solid red;
+}
+#dv4-1{
+    background: orchid;
+    width:400px;
+    height: 300px;
+}
+.hd span{
+    background: orchid;
+    padding: 0 20px;
+    margin-left: 10px;
+    border: 1px solid red;
+}
+.hd span.current{
+    background: gold;
+}
+.bd li{
+    height:200px;
+    width: 180px;
+    display: none;
+
+
+}
+.bd li.current{
+    display: block;
+    border:1px solid green;
+}
