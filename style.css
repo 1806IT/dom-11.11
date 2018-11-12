@@ -1,38 +1,26 @@
-#ss{
-    width: 100px;
-    height: 100px;
-    background: blue;
+*{margin:0;padding: 0;}
+ul,li{
+    list-style: none
 }
-#txt1{
-    color: grey;
+
+body{
+    background-image: url(img/0.jpg);
+    background-size: cover;
 }
-#dv3{
-    width:150px;
-    height:50px;
-    border:1px solid red;
+.change{
+    background: red;
 }
-#dv4-1{
-    background: orchid;
-    width:400px;
-    height: 300px;
-}
-.hd span{
-    background: orchid;
-    padding: 0 20px;
-    margin-left: 10px;
-    border: 1px solid red;
-}
-.hd span.current{
-    background: gold;
-}
-.bd li{
+div.nav{
+    display: flex;
+    justify-content: center;
     height:200px;
-    width: 180px;
-    display: none;
-
-
+    background: rgba(255,255,255,0.3);
 }
-.bd li.current{
-    display: block;
-    border:1px solid green;
+img{
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+}
+#b2{
+    color: red;
 }
